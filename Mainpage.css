@@ -150,7 +150,13 @@ nav ul li a:hover{
     background: aliceblue;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 2px;
+    
 }
+
+a.box1{
+    color:#83a4c9;
+}
+
 
 img{
   height: 7rem;  
