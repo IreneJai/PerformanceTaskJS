@@ -68,6 +68,24 @@
     }
     // Call the function
     sayHiJava();
+            
+var user = {
+  firstName: 'Matheo Azriel';
+  lastName: 'Cabiguez';
+  age: 1;
+  address: 'Engineer's Hill';
+  city: 'Baguio City';
+};
+
+// Define a function to display user info
+function displayUserInfo(user) {
+  document.write(`Name: + {user.firstName} + {user.lastName}`);
+  document.write(`Age: + {user.age}`);
+  document.write(`Address: + {user.address}, + {user.city}`);
+}
+
+// Call the function to display user info
+displayUserInfo(user);
   </script>
     </div>
 </body>
